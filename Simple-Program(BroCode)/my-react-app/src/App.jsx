@@ -1,16 +1,12 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Food from "./Food";
+import { Routes, Route } from 'react-router-dom'
+import Home from './Home'
+import Tutorial from './Project/1_React_Tutorial_For_Beginners/Tutorial'
 
-function App() {
-
-  return(
-    <>
-      <Header/>
-      <Food/>
-      <Footer/>
-    </>
-  );
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/tutorial" element={<Tutorial />} />
+    </Routes>
+  )
 }
-
-export default App
