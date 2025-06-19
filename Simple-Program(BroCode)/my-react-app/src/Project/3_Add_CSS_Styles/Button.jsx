@@ -11,8 +11,14 @@ function Button() {
         border-radius: "5px";
         border: "none";
         cursor: "pointer";
+
+        return(
+        <button style={styles}>Click me</button>
+        );
     }
     */ 
+
+    //Module Style
     return(
     <button className={styles.button}>Click me</button>
     );
