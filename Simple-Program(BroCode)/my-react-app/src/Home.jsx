@@ -7,7 +7,8 @@ export default function Home() {
       <Link to="/tutorial">1. React Tutorial For Beginners</Link><br />
       <Link to="/Card">2. Card Components</Link><br />
       <Link to="/CSS">3. Add CSS Style</Link><br />
-      <Link to="/Props">4. Props</Link>
+      <Link to="/Props">4. Props</Link><br />
+      <Link to="/ConditionalRendering">5. Conditional Rendering</Link>
     </div>
   )
 }
