@@ -6,7 +6,8 @@ export default function Home() {
       <h1>Welcome!</h1>
       <Link to="/tutorial">1. React Tutorial For Beginners</Link><br />
       <Link to="/Card">2. Card Components</Link><br />
-      <Link to="/CSS">3. Add CSS Style</Link>
+      <Link to="/CSS">3. Add CSS Style</Link><br />
+      <Link to="/Props">4. Props</Link>
     </div>
   )
 }
