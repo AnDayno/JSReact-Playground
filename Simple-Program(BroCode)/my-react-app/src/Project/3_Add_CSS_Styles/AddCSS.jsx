@@ -7,12 +7,19 @@
     2. MODULES
     3. INLINE
 */
+import { Link } from 'react-router-dom'
 import Button from "./Button";
 
 function AddCSS() {
 
     return(
         <>
+            <div style={{ padding: '1rem' }}>
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                ← Back to Home
+                </Link>
+            </div>
+
             <Button />
         </>
     );
