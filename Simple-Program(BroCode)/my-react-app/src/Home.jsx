@@ -8,7 +8,8 @@ export default function Home() {
       <Link to="/Card">2. Card Components</Link><br />
       <Link to="/CSS">3. Add CSS Style</Link><br />
       <Link to="/Props">4. Props</Link><br />
-      <Link to="/ConditionalRendering">5. Conditional Rendering</Link>
+      <Link to="/ConditionalRendering">5. Conditional Rendering</Link><br />
+      <Link to="RenderList">4. Render Lists</Link>
     </div>
   )
 }
