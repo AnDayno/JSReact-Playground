@@ -17,6 +17,12 @@ function RenderHome() {
 
     return(
         <>
+            <div style={{ padding: '1rem' }}>
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                ← Back to Home
+                </Link>
+            </div>
+
             {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
             {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
         </>);
