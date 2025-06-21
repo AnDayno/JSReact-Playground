@@ -9,7 +9,7 @@ export default function Home() {
       <Link to="/CSS">3. Add CSS Style</Link><br />
       <Link to="/Props">4. Props</Link><br />
       <Link to="/ConditionalRendering">5. Conditional Rendering</Link><br />
-      <Link to="RenderList">4. Render Lists</Link>
+      <Link to="RenderList">6. Render Lists</Link>
     </div>
   )
 }
