@@ -5,6 +5,7 @@
 */
 import { Link } from "react-router-dom";
 import ClickButton from "./ClickButton";
+import ProfilePicture from "./ProfilePicture";
 
 function ClickEventHome(){
 
@@ -16,7 +17,7 @@ function ClickEventHome(){
                 </Link>
             </div>
 
-            <ClickButton />
+            <ProfilePicture />
         </>
     );
 }
