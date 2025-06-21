@@ -6,6 +6,7 @@ import AddCSS from './Project/3_Add_CSS_Styles/addCSS'
 import PropsHome from './Project/4_Props/PropsHome'
 import ConditionalRendering from './Project/5_Conditional_Rendering/ConditionalRenderingHome'
 import RenderHome from './Project/6_Render_Lists/RenderHome'
+import ClickEventHome from './Project/7_Click_events/ClickEventHome'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path="/Props" element={<PropsHome />} />
       <Route path="/ConditionalRendering" element={<ConditionalRendering />} />
       <Route path="/RenderList" element={<RenderHome />} />
+      <Route path="/ClickEvent" element={<ClickEventHome />} />
     </Routes>
   )
 }
