@@ -19,8 +19,8 @@ function StatehookHome() {
                 ← Back to Home
                 </Link>
             </div>
-            
-            <MyComponent />
+
+            <MyComponent /> 
         </>
     );
 }
