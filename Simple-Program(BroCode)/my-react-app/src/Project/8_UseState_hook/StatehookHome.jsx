@@ -9,6 +9,7 @@
 */
 import { Link } from "react-router-dom";
 import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 function StatehookHome() {
 
@@ -20,7 +21,8 @@ function StatehookHome() {
                 </Link>
             </div>
 
-            <MyComponent /> 
+            {/* <MyComponent /> */}
+            <Counter />
         </>
     );
 }
